@@ -10,28 +10,51 @@ Zomato project analyzing restaurant data globally: continents, costs, ratings, c
 
 ## DAX Measures
 1. Total countries = DISTINCTCOUNT('Country Master'[Country])
-2. Average rating = AVERAGE(KPIs[Aggregate rating])
-3. Customer rating text = 
-   SWITCH(
+   
+3.Average rating = AVERAGE(KPIs[Aggregate rating])
+
+6.  Customer rating text = 
+
+SWITCH(
+
         TRUE(),
+        
         KPIs[Aggregate rating] >= 4.5 && KPIs[Aggregate rating] <= 4.9, "Excellent",
+        
         KPIs[Aggregate rating] >= 4.0 && KPIs[Aggregate rating] <= 4.4, "Very Good",
+        
         KPIs[Aggregate rating] >= 3.5 && KPIs[Aggregate rating] <= 3.9, "Good",
+        
         KPIs[Aggregate rating] >= 2.5 && KPIs[Aggregate rating] <= 3.4, "Average",
+        
         KPIs[Aggregate rating] >= 1.8 && KPIs[Aggregate rating] <= 2.4, "Poor",
+        
         "Not Rated"
+   
    )
-4.  Highest Average customer Rating = 
-   MAXX(
+   
+8.  Highest Average customer Rating = 
+
+ MAXX(
+        
         VALUES('Zomato global'[Restaurant ID]),
+        
         CALCULATE(AVERAGE(KPIs[Aggregate rating]))
+   
    ) 
-5.  Restaurant Cost Rank = 
+   
+10.  Restaurant Cost Rank =
+  
 RANKX(
+
     ALL('Zomato global'[Restaurant ID]),
+    
     CALCULATE(AVERAGE(KPIs[Average Cost for two])),
+    
     ,
+    
     DESC
+
 )
 
 ## Key Insights:
