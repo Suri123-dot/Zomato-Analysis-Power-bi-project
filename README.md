@@ -1,12 +1,36 @@
 # Zomato-Analysis-Power-bi-project
-Zomato project analyzing restaurant data globally: continents, costs, ratings, cuisines, drill-downs, filters, multi-page design for mobile + web.
+Zomato is a restaurant search and discovery service. Operating in several countries worldwide, they
+provide detailed information and customer reviews of various restaurants. The owners of Zomato,
+want to unearth
+the hidden anomalies in their business data. The final objective is to analyze the data in a way which
+helps them to accurately judge their business performance.
 
-## High-Level Steps
-- Data import from multiple Excel files
-- Data cleaning: fix city names, remove unused columns, split name/address
-- Dim tables: extract cuisines, ensure unique CountryCode/Continent
-- Build relations with correct cardinality & direction
-- Geo‑hierarchy & continent grouping
+## My Task
+
+As a hypothetical applicant for this role, I was tasked with:
+
+Writing dax to find the solution.
+
+Creating a dashboard to showcase these insights, targeting top-level management.
+
+## My Approach
+
+1. Data Extraction with EXCEL, POWER BI:
+
+- Used POWER BI to write queries and fetch the needed data.
+  
+2. Data Visualization:
+
+- Used Power BI to create visuals that made the insights easy to understand and engaging.
+
+3. Presentation Design:
+
+Created a clear and professional dashboard in POWER BI to share the insights.
+
+4. Actionable Insights:
+
+- Provided actionable insights and recommendations to assist the management team in making informed decisions.
+
 
 ## DAX Measures
 Total countries = DISTINCTCOUNT('Country Master'[Country])
@@ -107,9 +131,7 @@ Restaurants with online delivery services tend to attract higher footfall and be
 
 There’s a visible trend of mid-range pricing with higher review volumes, indicating affordability drives user engagement.
 
-## 🛠 File Structure
-- `Zomato_Dashboard.pbix` – Power BI report
-- `high_level_steps.md` – ETL & modeling steps
-- `dax_measures.md` – DAX queries
-- `images/` – visuals screenshots
-- `data_description.md` – dataset details (if any)
+## Outcome
+This project showed that I can handle complex data and share insights in a clear and interesting way. It helped me improve both my technical skills and my ability to explain things well.
+
+This project highlights my skills in data analysis, data visualization, and presentation design by via dashboard in a business setting. It demonstrates my ability to extract and present actionable insights from data, supporting data-driven decision-making in a corporate environment.
