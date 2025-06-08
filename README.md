@@ -9,11 +9,11 @@ Zomato project analyzing restaurant data globally: continents, costs, ratings, c
 - Geo‑hierarchy & continent grouping
 
 ## DAX Measures
-1. Total countries = DISTINCTCOUNT('Country Master'[Country])
+Total countries = DISTINCTCOUNT('Country Master'[Country])
    
-3.Average rating = AVERAGE(KPIs[Aggregate rating])
+Average rating = AVERAGE(KPIs[Aggregate rating])
 
-6.  Customer rating text = 
+Customer rating text = 
 
 SWITCH(
 
@@ -33,7 +33,7 @@ SWITCH(
    
    )
    
-8.  Highest Average customer Rating = 
+Highest Average customer Rating = 
 
  MAXX(
         
@@ -43,7 +43,7 @@ SWITCH(
    
    ) 
    
-10.  Restaurant Cost Rank =
+Restaurant Cost Rank =
   
 RANKX(
 
