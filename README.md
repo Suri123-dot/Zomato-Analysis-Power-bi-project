@@ -59,7 +59,7 @@ RANKX(
 
 ## Key Insights:
 
-1. Zomato Global Insights Overview
+1. Zomato Global Insights Overview:
 
 India dominates the Zomato platform with the highest number of registered restaurants and cities served globally.
 
@@ -71,7 +71,7 @@ The majority of restaurants offer multiple cuisines, showing Zomato’s diverse 
 
 Restaurant availability and activity are heavily skewed toward urban and metro regions.
 
-2. Zomato Global Footprints Overview
+2. Zomato Global Footprints Overview:
    
 Zomato operates across multiple continents but is most active in Asia, especially South Asia.
 
@@ -83,7 +83,7 @@ Countries with high GDP and urbanization seem to correlate with higher Zomato pr
 
 The platform’s reach is gradually expanding into underrepresented regions such as parts of Africa and Latin America.
 
-3. Worldwide Analysis
+3. Worldwide Analysis:
 
 The distribution of restaurants varies widely across continents, with Asia leading significantly.
 
@@ -95,7 +95,7 @@ The analysis highlights how regional culture influences restaurant ratings, pric
 
 Data reveals a clear digital food footprint pattern—showing how Zomato’s growth aligns with smartphone penetration and food delivery trends.
 
-4.  Restaurants Analysis
+4.  Restaurants Analysis:
 
 Quick Bites and Casual Dining are the most dominant restaurant types on the Zomato platform.
 
